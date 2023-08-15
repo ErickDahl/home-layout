@@ -33,7 +33,7 @@ Siga as etapas abaixo para executar o projeto em sua máquina local:
 2. **Instale as dependências:** Execute o seguinte comando para instalar as dependências do projeto:
 
    ```bash
-   yarn add
+   yarn 
    ```
 
 3. **Execute o projeto:** Utilize o comando abaixo para iniciar o servidor de desenvolvimento e visualizar a página home em seu navegador:
