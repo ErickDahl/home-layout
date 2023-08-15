@@ -10,6 +10,15 @@
   height: 50vh;
 }
 
+.modalCloseText{
+  position: absolute;
+  right: 0;
+  top: -25px;
+  color: var(--color-white);
+  font-size: var(--font-size-1);
+  cursor: pointer;
+}
+
 .modalImageContainer {
   overflow: hidden;
   height: 100%;

@@ -17,6 +17,9 @@ const ModalCustom = () => {
       aria-describedby="modal-modal-description"
     >
       <div className={styles.modalContainer}>
+        <span onClick={handleClose} className={styles.modalCloseText}>
+          FECHAR
+        </span>
         <div className={styles.modalImageContainer}>
           <img className={styles.modalImage} src={modalImage} alt="imagem" />
         </div>
