@@ -1,0 +1,12 @@
+.headerAlertContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #353535;
+  height: 24px;
+}
+
+.headerAlertTitle{
+    color: #fff;
+    font-size: var(--font-size-1);
+}

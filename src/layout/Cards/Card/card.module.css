@@ -1,0 +1,29 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  background-color: var(--color-gray-light);
+  padding: 10px;
+  border-radius: calc(var(--border-radius-small) - 1px);
+  padding-right: 27px;
+  height: 64px;
+  max-width: 288px;
+  width: 100%;
+}
+
+.cardRightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 200px;
+}
+
+.cardSubTitle {
+  font-size: var(--font-size-1);
+}
+
+.cardTitle {
+  font-size: var(--font-size-2);
+  font-weight: var(--font-weight-bold);
+}

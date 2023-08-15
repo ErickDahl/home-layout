@@ -1,0 +1,25 @@
+.headerMenuContainer {
+  padding-inline-start: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1598px;
+  margin: 13px auto;
+}
+
+.headerMenuItem {
+  color: var(--color-black-light);
+}
+
+.headerMenuItemActive {
+  color: var(--color-orange-light);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerMenuItem,
+.headerMenuItemActive {
+  cursor: pointer;
+}

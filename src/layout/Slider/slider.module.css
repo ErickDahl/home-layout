@@ -1,0 +1,40 @@
+.slider {
+  position: relative;
+}
+
+.overlaySlider {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
+.overlayTitle {
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  margin-bottom: 40px;
+}
+
+.overlaySubtitle {
+  font-size: var(--font-size-5);
+  color: var(--color-white);
+  max-width: 467px;
+  margin-bottom: 32px;
+}
+
+.overlayButton {
+  width: 100%;
+  border: none;
+  max-width: 128px;
+  height: 48px;
+  background-color: var(--color-orange-light);
+  border-radius: var(--border-radius-high);
+  color: var(--color-white);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+}

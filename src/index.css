@@ -1,11 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@300;400;600;700;900&display=swap");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", "Montserrat", sans-serif;
+
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,56 +14,57 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
+  --font-size-1: 12px;
+  --font-size-2: 14px;
+  --font-size-3: 16px;
+  --font-size-4: 18px;
+  --font-size-5: 20px;
+  --font-size-title: 40px;
+
+  --logo-height: 18px;
+  --search-height: 40px;
+
+  --border-radius-high: 10px;
+  --border-radius-medium: 8px;
+  --border-radius-small: 5px;
+
+  --color-orange-light: #faa500;
+  --color-black-light: #353535;
+  --color-white: #fff;
+  --color-gray-light: #efefef;
+
+  --font-weight-bold: 700;
+
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* ------------ swiper ------------------- */
+
+.swiper-pagination-bullet {
+  /* 16px is the base size, but it get increased by to 2px by some config of swiper */
+  width: calc(16px - 2px);
+  height: calc(16px - 2px);
+  border: 1px solid var(--color-orange-light);
+  opacity: 1;
+  background: transparent;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.swiper-pagination-bullet-active {
+  background: var(--color-orange-light);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.swiper-button-prev {
+  background-image: url("/src/assets/svgs/_icon-prev.svg") !important;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+  background-image: url("/src/assets/svgs/_icon-next.svg") !important;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
 }
