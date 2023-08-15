@@ -1,5 +1,5 @@
 import styles from "./headerMenu.module.css";
-import iconDress from "../../../assets/svgs/icon-dress.svg";
+import iconDress from "../../../../assets/svgs/icon-dress.svg";
 
 const HeaderMenu = () => {
   return (

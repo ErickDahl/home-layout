@@ -1,0 +1,28 @@
+.brandsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.brandsTitle {
+  color: var(--color-black-light);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sub-title);
+}
+
+.brandsImagesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+}
+
+.brandsImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}

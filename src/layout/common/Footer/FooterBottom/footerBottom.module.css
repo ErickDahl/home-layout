@@ -1,0 +1,27 @@
+.footerBottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 85px;
+  background-color: var(--color-black-light);
+}
+
+.poweredBy,
+.payments,
+.socials {
+  display: flex;
+  gap: 22px;
+}
+
+.developedByContainer,
+.poweredByContainer {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
+.poweredByText,
+.developedByText {
+  font-size: var(--font-size-0);
+  color: var(--color-white);
+}

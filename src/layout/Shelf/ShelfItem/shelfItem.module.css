@@ -1,0 +1,65 @@
+.shelfItemContainer {
+  max-width: 308px;
+  height: 100%;
+}
+
+.colorsContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.color {
+  height: 27px;
+  width: 27px;
+  border-radius: var(--border-radius-high);
+}
+
+.itemInformation {
+  height: 100%;
+  min-height: 232px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 254px;
+  margin: 0 auto;
+}
+
+.price {
+  margin-bottom: 2px;
+  font-weight: var(--font-weight-bold);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-size: var(--font-size-3);
+}
+
+.description {
+  font-size: var(--font-size-1);
+  font-weight: 400;
+}
+
+.description,
+.name {
+  margin-bottom: 8px;
+}
+
+.buttonAddToCart {
+  border: none;
+  max-width: 254px;
+  height: 35px;
+  background-color: var(--color-orange-light);
+  border-radius: var(--border-radius-small);
+  color: var(--color-white);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  width: 100%;
+}

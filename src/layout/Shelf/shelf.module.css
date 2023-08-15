@@ -1,0 +1,20 @@
+.shelf {
+  margin-top: 80px;
+}
+
+.shelfItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 0;
+  font-size: var(--font-size-sub-title);
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+}
+
+.swiper{
+  margin: 0 20px;
+}

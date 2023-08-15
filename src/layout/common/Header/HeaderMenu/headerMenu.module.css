@@ -5,7 +5,11 @@
   align-items: center;
   justify-content: space-around;
   max-width: 1598px;
-  margin: 13px auto;
+  margin: 0 auto;
+  height: 32px;
+  margin-top: 10px;
+  padding-bottom: 9px;
+  background-color: var(--color-white);
 }
 
 .headerMenuItem {

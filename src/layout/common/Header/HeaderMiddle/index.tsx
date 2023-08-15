@@ -1,12 +1,12 @@
-import maeztraLogo from "../../assets/images/logo-maeztra-novo.png";
-import iconShoppingBag from "../../assets/svgs/icon-shoppingbag.svg";
-import iconUser from "../../assets/svgs/icon-user.svg";
-import iconHeart from "../../assets/svgs/icon-heart.svg";
-import styles from "./header.module.css";
+import maeztraLogo from "../../../../assets/images/logo-maeztra-novo.png";
+import iconShoppingBag from "../../../../assets/svgs/icon-shoppingbag.svg";
+import iconUser from "../../../../assets/svgs/icon-user.svg";
+import iconHeart from "../../../../assets/svgs/icon-heart.svg";
+import styles from "./headerMiddle.module.css";
 
-const Header = () => {
+const HeaderMiddle = () => {
   return (
-    <header className={styles.containerHeader}>
+    <div className={styles.containerMiddleHeader}>
       <a className={styles.logoLink} href="/">
         <img src={maeztraLogo} className={styles.maeztraLogo} alt="logo" />
       </a>
@@ -34,8 +34,8 @@ const Header = () => {
           <span>Meu Carrinho</span>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
-export { Header };
+export { HeaderMiddle };

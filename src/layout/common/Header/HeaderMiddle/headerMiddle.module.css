@@ -1,0 +1,79 @@
+*:focus {
+    outline: none;
+  }
+  
+  .containerMiddleHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
+    background: #fff;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.08);
+  }
+  
+  .logoLink {
+    max-height: var(--logo-height);
+  }
+  
+  .maeztraLogo {
+    max-width: 147px;
+    max-height: var(--logo-height);
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 40%;
+  }
+  
+  .searchInput {
+    background-color: var(--color-gray-light);
+    border: none;
+    border-radius: var(--border-radius-high);
+    height: var(--search-height);
+    padding-left: 24px;
+    padding-right: 120px;
+    width: 100%;
+  }
+  
+  .searchButton {
+    width: 100%;
+    position: absolute;
+    border: none;
+    max-width: 119px;
+    height: var(--search-height);
+    background-color: var(--color-orange-light);
+    border-radius: var(--border-radius-high);
+    right: 0;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+  
+  .containerHeaderActions {
+    display: flex;
+  }
+  
+  .leftActions {
+    display: flex;
+    margin-right: 20px;
+    gap: 10px;
+  }
+  
+  .login,
+  .wishlist,
+  .cart {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8.464px;
+    font-size: var(--font-size-2);
+    color: var(--color-black-light);
+  }
+  
+  .cart {
+    border-radius: var(--border-radius-medium);
+    padding: 12px 14px 13px 17px;
+    border: 1px solid var(--color-orange-light);
+  }
+  
