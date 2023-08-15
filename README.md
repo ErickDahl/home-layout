@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Projeto de Página Home utilizando Vite, React e TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do projeto de Página Home desenvolvido usando Vite, React e TypeScript! Este projeto foi criado como parte de um teste , com o objetivo de implementar a página home de um layout fornecido.
 
-Currently, two official plugins are available:
+## Descrição do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo deste projeto é construir a página home de acordo com o layout fornecido.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Neste projeto, a página home possui as seguintes funcionalidades:
 
-- Configure the top-level `parserOptions` property like this:
+- **Exibição de Conteúdo:** A página home exibe informações relevantes, como títulos, texto descritivo e imagens, de acordo com o layout fornecido.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Vite:** Vite é um build tool (ferramenta de construção) rápida e moderna que permite desenvolver aplicativos web com velocidade e eficiência.
+
+- **React:** React é uma biblioteca JavaScript para a construção de interfaces de usuário interativas e componentes reutilizáveis.
+
+- **TypeScript:** TypeScript é um superconjunto de JavaScript que adiciona tipos estáticos à linguagem, ajudando a evitar erros e melhorando a manutenção do código.
+
+## Instruções de Uso
+
+Siga as etapas abaixo para executar o projeto em sua máquina local:
+
+1. **Clone o repositório:** Utilize o comando abaixo para clonar este repositório em sua máquina:
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   ```
+
+2. **Instale as dependências:** Execute o seguinte comando para instalar as dependências do projeto:
+
+   ```bash
+   yarn add
+   ```
+
+3. **Execute o projeto:** Utilize o comando abaixo para iniciar o servidor de desenvolvimento e visualizar a página home em seu navegador:
+   ```bash
+   yarn dev
+   ```
